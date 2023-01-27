@@ -11,6 +11,7 @@ let player0Active = true;
 let player1Active = false;
 let player0Score = 0;
 let player1Score = 0; 
+let name = 'faisal'
 
 rollBtn.addEventListener('click', ()=>{
     const num = Math.floor((Math.random()*6)+1);
